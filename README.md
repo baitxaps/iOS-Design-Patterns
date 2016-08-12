@@ -1,7 +1,7 @@
 #iOS-Design-Patterns
 
 《[设计模式之禅](http://download.csdn.net/detail/baitxaps/9602132)》原书，存于此便于以后参考使用。
-* [设计模式之禅Java语言已翻译成Objective-C语言,合部源码:https://github.com/baitxaps/iOS-Design-Patterns](https://github.com/baitxaps/iOS-Design-Patterns)
+* [设计模式之禅Java语言已翻译成Objective-C语言,全部源码:https://github.com/baitxaps/iOS-Design-Patterns](https://github.com/baitxaps/iOS-Design-Patterns)
 * [Blog](http://write.blog.csdn.net/postedit/52196681)
 
 ##六大设计原则(SOLID)
