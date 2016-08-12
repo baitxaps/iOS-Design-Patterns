@@ -1,7 +1,8 @@
 #iOS-Design-Patterns
 
 《[设计模式之禅](http://download.csdn.net/detail/baitxaps/9602132)》原书，有部分修。存于此便于以后参考使用。
-*[源码]（https://github.com/baitxaps/iOS-Design-Patterns）
+* [源码]（https://github.com/baitxaps/iOS-Design-Patterns）
+* [Blog](http://write.blog.csdn.net/postedit/52196681)
 
 ##六大设计原则(SOLID)
 * [单一职责原则(SRP)]
@@ -83,4 +84,4 @@
 ![Alt text](https://github.com/baitxaps/iOS-Design-Patterns/blob/master/jpg/bridge.jpg "桥接模式类图")
 
 ###24.[MVC]
-a
+
