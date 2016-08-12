@@ -13,7 +13,7 @@
 
 ##23个设计模式
 ###1.[单例模式](https://github.com/baitxaps/iOS-Design-Patterns/tree/master/AdapterPattern)  
-![Alt text](blob/master/jpg/singleton.gif"单例模式")
+![Alt text](https://github.com/baitxaps/iOS-Design-Patterns/blob/master/jpg/singleton.gif "单例模式")
 
 ###2.[工厂模式](https://github.com/nivance/DPModel/tree/master/src/dp/com/company/factorys)  
 ![Alt text](src/dp/com/company/factorys/factorys.jpg "工厂模式类图")
