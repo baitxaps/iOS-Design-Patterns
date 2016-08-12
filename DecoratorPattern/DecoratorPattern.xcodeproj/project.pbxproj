@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B46E8F1D4C9A4D00FE3021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46E8E1D4C9A4D00FE3021 /* main.m */; };
+		77B46E981D4C9AFE00FE3021 /* FouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46E971D4C9AFE00FE3021 /* FouthGradeSchoolReport.m */; };
+		77B46E9B1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46E9A1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m */; };
+		77B46EA11D4CADA400FE3021 /* HighScoreDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EA01D4CADA400FE3021 /* HighScoreDecorator.m */; };
+		77B46EA41D4CAFCB00FE3021 /* SortDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EA31D4CAFCB00FE3021 /* SortDecorator.m */; };
+		77B46EAA1D4CDB2F00FE3021 /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EA91D4CDB2F00FE3021 /* ConcreteComponent.m */; };
+		77B46EAD1D4CDBA000FE3021 /* RHCDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EAC1D4CDBA000FE3021 /* RHCDecorator.m */; };
+		77B46EB01D4CDDB700FE3021 /* ConcreteDecorator1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EAF1D4CDDB700FE3021 /* ConcreteDecorator1.m */; };
+		77B46EB31D4CDE8400FE3021 /* ConcreteDecorator2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EB21D4CDE8400FE3021 /* ConcreteDecorator2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77B46E891D4C9A4D00FE3021 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77B46E8B1D4C9A4D00FE3021 /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B46E8E1D4C9A4D00FE3021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77B46E951D4C9AAC00FE3021 /* SchoolReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolReport.h; sourceTree = "<group>"; };
+		77B46E961D4C9AFE00FE3021 /* FouthGradeSchoolReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FouthGradeSchoolReport.h; sourceTree = "<group>"; };
+		77B46E971D4C9AFE00FE3021 /* FouthGradeSchoolReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FouthGradeSchoolReport.m; sourceTree = "<group>"; };
+		77B46E991D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugarFouthGradeSchoolReport.h; sourceTree = "<group>"; };
+		77B46E9A1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugarFouthGradeSchoolReport.m; sourceTree = "<group>"; };
+		77B46E9C1D4CAC2300FE3021 /* decoratorPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decoratorPattern001.png; sourceTree = "<group>"; };
+		77B46E9E1D4CACB100FE3021 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		77B46E9F1D4CADA400FE3021 /* HighScoreDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreDecorator.h; sourceTree = "<group>"; };
+		77B46EA01D4CADA400FE3021 /* HighScoreDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreDecorator.m; sourceTree = "<group>"; };
+		77B46EA21D4CAFCB00FE3021 /* SortDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortDecorator.h; sourceTree = "<group>"; };
+		77B46EA31D4CAFCB00FE3021 /* SortDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortDecorator.m; sourceTree = "<group>"; };
+		77B46EA51D4CCA1C00FE3021 /* decoratorPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decoratorPattern002.png; sourceTree = "<group>"; };
+		77B46EA71D4CDAF900FE3021 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		77B46EA81D4CDB2F00FE3021 /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
+		77B46EA91D4CDB2F00FE3021 /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
+		77B46EAB1D4CDBA000FE3021 /* RHCDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCDecorator.h; sourceTree = "<group>"; };
+		77B46EAC1D4CDBA000FE3021 /* RHCDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCDecorator.m; sourceTree = "<group>"; };
+		77B46EAE1D4CDDB700FE3021 /* ConcreteDecorator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecorator1.h; sourceTree = "<group>"; };
+		77B46EAF1D4CDDB700FE3021 /* ConcreteDecorator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecorator1.m; sourceTree = "<group>"; };
+		77B46EB11D4CDE8400FE3021 /* ConcreteDecorator2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecorator2.h; sourceTree = "<group>"; };
+		77B46EB21D4CDE8400FE3021 /* ConcreteDecorator2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecorator2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B46E881D4C9A4D00FE3021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77B46E821D4C9A4D00FE3021 = {
+			isa = PBXGroup;
+			children = (
+				77B46EA61D4CDAD800FE3021 /* Component */,
+				77B46E9D1D4CAC5600FE3021 /* Decorator */,
+				77B46E8D1D4C9A4D00FE3021 /* DecoratorPattern */,
+				77B46E8C1D4C9A4D00FE3021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B46E8C1D4C9A4D00FE3021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B46E8B1D4C9A4D00FE3021 /* DecoratorPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B46E8D1D4C9A4D00FE3021 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				77B46EA51D4CCA1C00FE3021 /* decoratorPattern002.png */,
+				77B46E9C1D4CAC2300FE3021 /* decoratorPattern001.png */,
+				77B46E8E1D4C9A4D00FE3021 /* main.m */,
+				77B46E951D4C9AAC00FE3021 /* SchoolReport.h */,
+				77B46E961D4C9AFE00FE3021 /* FouthGradeSchoolReport.h */,
+				77B46E971D4C9AFE00FE3021 /* FouthGradeSchoolReport.m */,
+				77B46E991D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.h */,
+				77B46E9A1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m */,
+			);
+			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		77B46E9D1D4CAC5600FE3021 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				77B46E9E1D4CACB100FE3021 /* Decorator.h */,
+				77B46E9F1D4CADA400FE3021 /* HighScoreDecorator.h */,
+				77B46EA01D4CADA400FE3021 /* HighScoreDecorator.m */,
+				77B46EA21D4CAFCB00FE3021 /* SortDecorator.h */,
+				77B46EA31D4CAFCB00FE3021 /* SortDecorator.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		77B46EA61D4CDAD800FE3021 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				77B46EA71D4CDAF900FE3021 /* Component.h */,
+				77B46EA81D4CDB2F00FE3021 /* ConcreteComponent.h */,
+				77B46EA91D4CDB2F00FE3021 /* ConcreteComponent.m */,
+				77B46EAB1D4CDBA000FE3021 /* RHCDecorator.h */,
+				77B46EAC1D4CDBA000FE3021 /* RHCDecorator.m */,
+				77B46EAE1D4CDDB700FE3021 /* ConcreteDecorator1.h */,
+				77B46EAF1D4CDDB700FE3021 /* ConcreteDecorator1.m */,
+				77B46EB11D4CDE8400FE3021 /* ConcreteDecorator2.h */,
+				77B46EB21D4CDE8400FE3021 /* ConcreteDecorator2.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B46E8A1D4C9A4D00FE3021 /* DecoratorPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B46E921D4C9A4D00FE3021 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */;
+			buildPhases = (
+				77B46E871D4C9A4D00FE3021 /* Sources */,
+				77B46E881D4C9A4D00FE3021 /* Frameworks */,
+				77B46E891D4C9A4D00FE3021 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecoratorPattern;
+			productName = DecoratorPattern;
+			productReference = 77B46E8B1D4C9A4D00FE3021 /* DecoratorPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B46E831D4C9A4D00FE3021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					77B46E8A1D4C9A4D00FE3021 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 77B46E861D4C9A4D00FE3021 /* Build configuration list for PBXProject "DecoratorPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77B46E821D4C9A4D00FE3021;
+			productRefGroup = 77B46E8C1D4C9A4D00FE3021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B46E8A1D4C9A4D00FE3021 /* DecoratorPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B46E871D4C9A4D00FE3021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B46E9B1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m in Sources */,
+				77B46EB31D4CDE8400FE3021 /* ConcreteDecorator2.m in Sources */,
+				77B46EB01D4CDDB700FE3021 /* ConcreteDecorator1.m in Sources */,
+				77B46E8F1D4C9A4D00FE3021 /* main.m in Sources */,
+				77B46EAA1D4CDB2F00FE3021 /* ConcreteComponent.m in Sources */,
+				77B46EAD1D4CDBA000FE3021 /* RHCDecorator.m in Sources */,
+				77B46EA41D4CAFCB00FE3021 /* SortDecorator.m in Sources */,
+				77B46EA11D4CADA400FE3021 /* HighScoreDecorator.m in Sources */,
+				77B46E981D4C9AFE00FE3021 /* FouthGradeSchoolReport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77B46E901D4C9A4D00FE3021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77B46E911D4C9A4D00FE3021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77B46E931D4C9A4D00FE3021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77B46E941D4C9A4D00FE3021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B46E861D4C9A4D00FE3021 /* Build configuration list for PBXProject "DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B46E901D4C9A4D00FE3021 /* Debug */,
+				77B46E911D4C9A4D00FE3021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B46E921D4C9A4D00FE3021 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B46E931D4C9A4D00FE3021 /* Debug */,
+				77B46E941D4C9A4D00FE3021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B46E831D4C9A4D00FE3021 /* Project object */;
+}

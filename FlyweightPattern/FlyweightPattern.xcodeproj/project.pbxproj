@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770639E81D5D71AF0037A415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639E71D5D71AF0037A415 /* main.m */; };
+		770639F21D5D7AA70037A415 /* SignInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639F11D5D7AA70037A415 /* SignInfo.m */; };
+		770639F51D5D7B1D0037A415 /* SignInfoFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639F41D5D7B1D0037A415 /* SignInfoFactory.m */; };
+		770639F81D5D7BD10037A415 /* SignInfo4Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639F71D5D7BD10037A415 /* SignInfo4Pool.m */; };
+		770639FC1D5DAFF90037A415 /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639FB1D5DAFF90037A415 /* Flyweight.m */; };
+		770639FF1D5DB0FA0037A415 /* ConcreteFlyweight1.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639FE1D5DB0FA0037A415 /* ConcreteFlyweight1.m */; };
+		77063A021D5DB1BD0037A415 /* ConcreteFlyweight2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A011D5DB1BD0037A415 /* ConcreteFlyweight2.m */; };
+		77063A051D5DB20F0037A415 /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A041D5DB20F0037A415 /* FlyweightFactory.m */; };
+		77063A0B1D5DD4EE0037A415 /* ExtrinsicState.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A0A1D5DD4EE0037A415 /* ExtrinsicState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		770639E21D5D71AE0037A415 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		770639E41D5D71AE0037A415 /* FlyweightPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlyweightPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		770639E71D5D71AF0037A415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		770639EE1D5D75E90037A415 /* FlyweightPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlyweightPattern001.png; sourceTree = "<group>"; };
+		770639EF1D5D78120037A415 /* FlyweightPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlyweightPattern002.png; sourceTree = "<group>"; };
+		770639F01D5D7AA70037A415 /* SignInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfo.h; sourceTree = "<group>"; };
+		770639F11D5D7AA70037A415 /* SignInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfo.m; sourceTree = "<group>"; };
+		770639F31D5D7B1D0037A415 /* SignInfoFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfoFactory.h; sourceTree = "<group>"; };
+		770639F41D5D7B1D0037A415 /* SignInfoFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfoFactory.m; sourceTree = "<group>"; };
+		770639F61D5D7BD10037A415 /* SignInfo4Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfo4Pool.h; sourceTree = "<group>"; };
+		770639F71D5D7BD10037A415 /* SignInfo4Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfo4Pool.m; sourceTree = "<group>"; };
+		770639FA1D5DAFF90037A415 /* Flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flyweight.h; sourceTree = "<group>"; };
+		770639FB1D5DAFF90037A415 /* Flyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
+		770639FD1D5DB0FA0037A415 /* ConcreteFlyweight1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyweight1.h; sourceTree = "<group>"; };
+		770639FE1D5DB0FA0037A415 /* ConcreteFlyweight1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyweight1.m; sourceTree = "<group>"; };
+		77063A001D5DB1BD0037A415 /* ConcreteFlyweight2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyweight2.h; sourceTree = "<group>"; };
+		77063A011D5DB1BD0037A415 /* ConcreteFlyweight2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyweight2.m; sourceTree = "<group>"; };
+		77063A031D5DB20F0037A415 /* FlyweightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightFactory.h; sourceTree = "<group>"; };
+		77063A041D5DB20F0037A415 /* FlyweightFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightFactory.m; sourceTree = "<group>"; };
+		77063A091D5DD4EE0037A415 /* ExtrinsicState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtrinsicState.h; sourceTree = "<group>"; };
+		77063A0A1D5DD4EE0037A415 /* ExtrinsicState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtrinsicState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770639E11D5D71AE0037A415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		770639DB1D5D71AE0037A415 = {
+			isa = PBXGroup;
+			children = (
+				770639F91D5D8A470037A415 /* Flyweight */,
+				770639E61D5D71AE0037A415 /* FlyweightPattern */,
+				770639E51D5D71AE0037A415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		770639E51D5D71AE0037A415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				770639E41D5D71AE0037A415 /* FlyweightPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		770639E61D5D71AE0037A415 /* FlyweightPattern */ = {
+			isa = PBXGroup;
+			children = (
+				770639EE1D5D75E90037A415 /* FlyweightPattern001.png */,
+				770639EF1D5D78120037A415 /* FlyweightPattern002.png */,
+				770639E71D5D71AF0037A415 /* main.m */,
+				770639F01D5D7AA70037A415 /* SignInfo.h */,
+				770639F11D5D7AA70037A415 /* SignInfo.m */,
+				770639F31D5D7B1D0037A415 /* SignInfoFactory.h */,
+				770639F41D5D7B1D0037A415 /* SignInfoFactory.m */,
+				770639F61D5D7BD10037A415 /* SignInfo4Pool.h */,
+				770639F71D5D7BD10037A415 /* SignInfo4Pool.m */,
+				77063A091D5DD4EE0037A415 /* ExtrinsicState.h */,
+				77063A0A1D5DD4EE0037A415 /* ExtrinsicState.m */,
+			);
+			path = FlyweightPattern;
+			sourceTree = "<group>";
+		};
+		770639F91D5D8A470037A415 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				770639FA1D5DAFF90037A415 /* Flyweight.h */,
+				770639FB1D5DAFF90037A415 /* Flyweight.m */,
+				770639FD1D5DB0FA0037A415 /* ConcreteFlyweight1.h */,
+				770639FE1D5DB0FA0037A415 /* ConcreteFlyweight1.m */,
+				77063A001D5DB1BD0037A415 /* ConcreteFlyweight2.h */,
+				77063A011D5DB1BD0037A415 /* ConcreteFlyweight2.m */,
+				77063A031D5DB20F0037A415 /* FlyweightFactory.h */,
+				77063A041D5DB20F0037A415 /* FlyweightFactory.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		770639E31D5D71AE0037A415 /* FlyweightPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770639EB1D5D71AF0037A415 /* Build configuration list for PBXNativeTarget "FlyweightPattern" */;
+			buildPhases = (
+				770639E01D5D71AE0037A415 /* Sources */,
+				770639E11D5D71AE0037A415 /* Frameworks */,
+				770639E21D5D71AE0037A415 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyweightPattern;
+			productName = FlyweightPattern;
+			productReference = 770639E41D5D71AE0037A415 /* FlyweightPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		770639DC1D5D71AE0037A415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					770639E31D5D71AE0037A415 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 770639DF1D5D71AE0037A415 /* Build configuration list for PBXProject "FlyweightPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 770639DB1D5D71AE0037A415;
+			productRefGroup = 770639E51D5D71AE0037A415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770639E31D5D71AE0037A415 /* FlyweightPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770639E01D5D71AE0037A415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77063A051D5DB20F0037A415 /* FlyweightFactory.m in Sources */,
+				77063A021D5DB1BD0037A415 /* ConcreteFlyweight2.m in Sources */,
+				770639FC1D5DAFF90037A415 /* Flyweight.m in Sources */,
+				770639F21D5D7AA70037A415 /* SignInfo.m in Sources */,
+				770639F81D5D7BD10037A415 /* SignInfo4Pool.m in Sources */,
+				770639F51D5D7B1D0037A415 /* SignInfoFactory.m in Sources */,
+				770639FF1D5DB0FA0037A415 /* ConcreteFlyweight1.m in Sources */,
+				770639E81D5D71AF0037A415 /* main.m in Sources */,
+				77063A0B1D5DD4EE0037A415 /* ExtrinsicState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		770639E91D5D71AF0037A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		770639EA1D5D71AF0037A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		770639EC1D5D71AF0037A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		770639ED1D5D71AF0037A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770639DF1D5D71AE0037A415 /* Build configuration list for PBXProject "FlyweightPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770639E91D5D71AF0037A415 /* Debug */,
+				770639EA1D5D71AF0037A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770639EB1D5D71AF0037A415 /* Build configuration list for PBXNativeTarget "FlyweightPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770639EC1D5D71AF0037A415 /* Debug */,
+				770639ED1D5D71AF0037A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 770639DC1D5D71AE0037A415 /* Project object */;
+}

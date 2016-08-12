@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580F3EFF1D3DF4A500F44A93 /* GamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 580F3EFE1D3DF4A500F44A93 /* GamePlayer.m */; };
+		580F3F031D3DF87600F44A93 /* GamePlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 580F3F021D3DF87600F44A93 /* GamePlayerProxy.m */; };
+		774A295D1D3A1DA200C1E1C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774A295C1D3A1DA200C1E1C0 /* main.m */; };
+		774A29671D3A350700C1E1C0 /* RHCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 774A29661D3A350700C1E1C0 /* RHCClass.m */; };
+		774A296A1D3A37F600C1E1C0 /* RHCImplementClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 774A29691D3A37F600C1E1C0 /* RHCImplementClass.m */; };
+		774A296E1D3B28A000C1E1C0 /* RHCBridgeAClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 774A296D1D3B28A000C1E1C0 /* RHCBridgeAClass.m */; };
+		774A29711D3B28B200C1E1C0 /* RHCBridegBCalss.m in Sources */ = {isa = PBXBuildFile; fileRef = 774A29701D3B28B200C1E1C0 /* RHCBridegBCalss.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		774A29571D3A1DA200C1E1C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		580F3EFD1D3DF4A500F44A93 /* GamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayer.h; sourceTree = "<group>"; };
+		580F3EFE1D3DF4A500F44A93 /* GamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayer.m; sourceTree = "<group>"; };
+		580F3F001D3DF84500F44A93 /* proxy02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proxy02.png; sourceTree = "<group>"; };
+		580F3F011D3DF87600F44A93 /* GamePlayerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayerProxy.h; sourceTree = "<group>"; };
+		580F3F021D3DF87600F44A93 /* GamePlayerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayerProxy.m; sourceTree = "<group>"; };
+		580F3F041D3DFE0300F44A93 /* proxy01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proxy01.png; sourceTree = "<group>"; };
+		580F3F051D3E080D00F44A93 /* proxy04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proxy04.png; sourceTree = "<group>"; };
+		580F3F061D3E18DA00F44A93 /* proxy03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proxy03.png; sourceTree = "<group>"; };
+		774A29591D3A1DA200C1E1C0 /* RHCProxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RHCProxy; sourceTree = BUILT_PRODUCTS_DIR; };
+		774A295C1D3A1DA200C1E1C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		774A29641D3A342C00C1E1C0 /* RHCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCProtocol.h; sourceTree = "<group>"; };
+		774A29651D3A350700C1E1C0 /* RHCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCClass.h; sourceTree = "<group>"; };
+		774A29661D3A350700C1E1C0 /* RHCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCClass.m; sourceTree = "<group>"; };
+		774A29681D3A37F600C1E1C0 /* RHCImplementClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCImplementClass.h; sourceTree = "<group>"; };
+		774A29691D3A37F600C1E1C0 /* RHCImplementClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCImplementClass.m; sourceTree = "<group>"; };
+		774A296C1D3B28A000C1E1C0 /* RHCBridgeAClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCBridgeAClass.h; sourceTree = "<group>"; };
+		774A296D1D3B28A000C1E1C0 /* RHCBridgeAClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCBridgeAClass.m; sourceTree = "<group>"; };
+		774A296F1D3B28B200C1E1C0 /* RHCBridegBCalss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCBridegBCalss.h; sourceTree = "<group>"; };
+		774A29701D3B28B200C1E1C0 /* RHCBridegBCalss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCBridegBCalss.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774A29561D3A1DA200C1E1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580F3EFC1D3DF3F500F44A93 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				580F3F041D3DFE0300F44A93 /* proxy01.png */,
+				580F3F001D3DF84500F44A93 /* proxy02.png */,
+				580F3F061D3E18DA00F44A93 /* proxy03.png */,
+				580F3F051D3E080D00F44A93 /* proxy04.png */,
+				580F3EFD1D3DF4A500F44A93 /* GamePlayer.h */,
+				580F3EFE1D3DF4A500F44A93 /* GamePlayer.m */,
+				580F3F011D3DF87600F44A93 /* GamePlayerProxy.h */,
+				580F3F021D3DF87600F44A93 /* GamePlayerProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		774A29501D3A1DA200C1E1C0 = {
+			isa = PBXGroup;
+			children = (
+				774A295B1D3A1DA200C1E1C0 /* RHCProxy */,
+				774A295A1D3A1DA200C1E1C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774A295A1D3A1DA200C1E1C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774A29591D3A1DA200C1E1C0 /* RHCProxy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774A295B1D3A1DA200C1E1C0 /* RHCProxy */ = {
+			isa = PBXGroup;
+			children = (
+
+		
+
+				580F3EFC1D3DF3F500F44A93 /* Proxy */,
+
+				774A296B1D3B285A00C1E1C0 /* Bridge */,
+				774A29631D3A33CB00C1E1C0 /* Delegate */,
+				774A295C1D3A1DA200C1E1C0 /* main.m */,
+			);
+			path = RHCProxy;
+			sourceTree = "<group>";
+		};
+		774A29631D3A33CB00C1E1C0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				774A29641D3A342C00C1E1C0 /* RHCProtocol.h */,
+				774A29651D3A350700C1E1C0 /* RHCClass.h */,
+				774A29661D3A350700C1E1C0 /* RHCClass.m */,
+				774A29681D3A37F600C1E1C0 /* RHCImplementClass.h */,
+				774A29691D3A37F600C1E1C0 /* RHCImplementClass.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		774A296B1D3B285A00C1E1C0 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				774A296C1D3B28A000C1E1C0 /* RHCBridgeAClass.h */,
+				774A296D1D3B28A000C1E1C0 /* RHCBridgeAClass.m */,
+				774A296F1D3B28B200C1E1C0 /* RHCBridegBCalss.h */,
+				774A29701D3B28B200C1E1C0 /* RHCBridegBCalss.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		774A29721D3B8EEE00C1E1C0 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		774A29581D3A1DA200C1E1C0 /* RHCProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774A29601D3A1DA200C1E1C0 /* Build configuration list for PBXNativeTarget "RHCProxy" */;
+			buildPhases = (
+				774A29551D3A1DA200C1E1C0 /* Sources */,
+				774A29561D3A1DA200C1E1C0 /* Frameworks */,
+				774A29571D3A1DA200C1E1C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHCProxy;
+			productName = RHCProxy;
+			productReference = 774A29591D3A1DA200C1E1C0 /* RHCProxy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774A29511D3A1DA200C1E1C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					774A29581D3A1DA200C1E1C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 774A29541D3A1DA200C1E1C0 /* Build configuration list for PBXProject "RHCProxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 774A29501D3A1DA200C1E1C0;
+			productRefGroup = 774A295A1D3A1DA200C1E1C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774A29581D3A1DA200C1E1C0 /* RHCProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774A29551D3A1DA200C1E1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774A29711D3B28B200C1E1C0 /* RHCBridegBCalss.m in Sources */,
+				774A29671D3A350700C1E1C0 /* RHCClass.m in Sources */,
+				580F3EFF1D3DF4A500F44A93 /* GamePlayer.m in Sources */,
+				774A296E1D3B28A000C1E1C0 /* RHCBridgeAClass.m in Sources */,
+				774A295D1D3A1DA200C1E1C0 /* main.m in Sources */,
+				774A296A1D3A37F600C1E1C0 /* RHCImplementClass.m in Sources */,
+				580F3F031D3DF87600F44A93 /* GamePlayerProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		774A295E1D3A1DA200C1E1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		774A295F1D3A1DA200C1E1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		774A29611D3A1DA200C1E1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		774A29621D3A1DA200C1E1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774A29541D3A1DA200C1E1C0 /* Build configuration list for PBXProject "RHCProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774A295E1D3A1DA200C1E1C0 /* Debug */,
+				774A295F1D3A1DA200C1E1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774A29601D3A1DA200C1E1C0 /* Build configuration list for PBXNativeTarget "RHCProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774A29611D3A1DA200C1E1C0 /* Debug */,
+				774A29621D3A1DA200C1E1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774A29511D3A1DA200C1E1C0 /* Project object */;
+}

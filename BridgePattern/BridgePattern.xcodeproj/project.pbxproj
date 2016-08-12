@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77063A191D5DE6A90037A415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A181D5DE6A90037A415 /* main.m */; };
+		77063A231D5DEBC00037A415 /* HouseCorp.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A221D5DEBC00037A415 /* HouseCorp.m */; };
+		77063A261D5DEC6C0037A415 /* ClothesCorp.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A251D5DEC6C0037A415 /* ClothesCorp.m */; };
+		77063A2C1D5DEE1D0037A415 /* IPodCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A2B1D5DEE1D0037A415 /* IPodCrop.m */; };
+		77063A321D5DEFCE0037A415 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A311D5DEFCE0037A415 /* House.m */; };
+		77063A351D5DF0490037A415 /* IPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A341D5DF0490037A415 /* IPod.m */; };
+		77063A371D5DF0BB0037A415 /* Corp.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A361D5DF0BB0037A415 /* Corp.m */; };
+		77063A3D1D5DFE090037A415 /* ConcreteImplementor1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A3C1D5DFE090037A415 /* ConcreteImplementor1.m */; };
+		77063A401D5DFE390037A415 /* ConcreteImplementor2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A3F1D5DFE390037A415 /* ConcreteImplementor2.m */; };
+		77063A431D5E008D0037A415 /* Abstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A421D5E008D0037A415 /* Abstraction.m */; };
+		77063A461D5E02520037A415 /* RefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A451D5E02520037A415 /* RefinedAbstraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77063A131D5DE6A90037A415 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77063A151D5DE6A90037A415 /* BridgePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BridgePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		77063A181D5DE6A90037A415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77063A201D5DEB850037A415 /* Corp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Corp.h; sourceTree = "<group>"; };
+		77063A211D5DEBC00037A415 /* HouseCorp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseCorp.h; sourceTree = "<group>"; };
+		77063A221D5DEBC00037A415 /* HouseCorp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseCorp.m; sourceTree = "<group>"; };
+		77063A241D5DEC6C0037A415 /* ClothesCorp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesCorp.h; sourceTree = "<group>"; };
+		77063A251D5DEC6C0037A415 /* ClothesCorp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesCorp.m; sourceTree = "<group>"; };
+		77063A291D5DEDCC0037A415 /* BridegPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BridegPattern002.png; sourceTree = "<group>"; };
+		77063A2A1D5DEE1D0037A415 /* IPodCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPodCrop.h; sourceTree = "<group>"; };
+		77063A2B1D5DEE1D0037A415 /* IPodCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPodCrop.m; sourceTree = "<group>"; };
+		77063A2E1D5DEF560037A415 /* BridegPattern003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BridegPattern003.png; sourceTree = "<group>"; };
+		77063A2F1D5DEF8C0037A415 /* Produce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Produce.h; sourceTree = "<group>"; };
+		77063A301D5DEFCE0037A415 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		77063A311D5DEFCE0037A415 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		77063A331D5DF0490037A415 /* IPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPod.h; sourceTree = "<group>"; };
+		77063A341D5DF0490037A415 /* IPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPod.m; sourceTree = "<group>"; };
+		77063A361D5DF0BB0037A415 /* Corp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Corp.m; sourceTree = "<group>"; };
+		77063A391D5DFDAB0037A415 /* BridegPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BridegPattern001.png; sourceTree = "<group>"; };
+		77063A3A1D5DFDDC0037A415 /* Implementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementor.h; sourceTree = "<group>"; };
+		77063A3B1D5DFE090037A415 /* ConcreteImplementor1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementor1.h; sourceTree = "<group>"; };
+		77063A3C1D5DFE090037A415 /* ConcreteImplementor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementor1.m; sourceTree = "<group>"; };
+		77063A3E1D5DFE390037A415 /* ConcreteImplementor2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementor2.h; sourceTree = "<group>"; };
+		77063A3F1D5DFE390037A415 /* ConcreteImplementor2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementor2.m; sourceTree = "<group>"; };
+		77063A411D5E008D0037A415 /* Abstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abstraction.h; sourceTree = "<group>"; };
+		77063A421D5E008D0037A415 /* Abstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Abstraction.m; sourceTree = "<group>"; };
+		77063A441D5E02520037A415 /* RefinedAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefinedAbstraction.h; sourceTree = "<group>"; };
+		77063A451D5E02520037A415 /* RefinedAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefinedAbstraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77063A121D5DE6A90037A415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77063A0C1D5DE6A90037A415 = {
+			isa = PBXGroup;
+			children = (
+				77063A381D5DFD940037A415 /* Brideg */,
+				77063A171D5DE6A90037A415 /* BridgePattern */,
+				77063A161D5DE6A90037A415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77063A161D5DE6A90037A415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77063A151D5DE6A90037A415 /* BridgePattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77063A171D5DE6A90037A415 /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				77063A2E1D5DEF560037A415 /* BridegPattern003.png */,
+				77063A291D5DEDCC0037A415 /* BridegPattern002.png */,
+				77063A181D5DE6A90037A415 /* main.m */,
+				77063A201D5DEB850037A415 /* Corp.h */,
+				77063A361D5DF0BB0037A415 /* Corp.m */,
+				77063A211D5DEBC00037A415 /* HouseCorp.h */,
+				77063A221D5DEBC00037A415 /* HouseCorp.m */,
+				77063A241D5DEC6C0037A415 /* ClothesCorp.h */,
+				77063A251D5DEC6C0037A415 /* ClothesCorp.m */,
+				77063A2A1D5DEE1D0037A415 /* IPodCrop.h */,
+				77063A2B1D5DEE1D0037A415 /* IPodCrop.m */,
+				77063A2F1D5DEF8C0037A415 /* Produce.h */,
+				77063A301D5DEFCE0037A415 /* House.h */,
+				77063A311D5DEFCE0037A415 /* House.m */,
+				77063A331D5DF0490037A415 /* IPod.h */,
+				77063A341D5DF0490037A415 /* IPod.m */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		77063A381D5DFD940037A415 /* Brideg */ = {
+			isa = PBXGroup;
+			children = (
+				77063A391D5DFDAB0037A415 /* BridegPattern001.png */,
+				77063A3A1D5DFDDC0037A415 /* Implementor.h */,
+				77063A3B1D5DFE090037A415 /* ConcreteImplementor1.h */,
+				77063A3C1D5DFE090037A415 /* ConcreteImplementor1.m */,
+				77063A3E1D5DFE390037A415 /* ConcreteImplementor2.h */,
+				77063A3F1D5DFE390037A415 /* ConcreteImplementor2.m */,
+				77063A411D5E008D0037A415 /* Abstraction.h */,
+				77063A421D5E008D0037A415 /* Abstraction.m */,
+				77063A441D5E02520037A415 /* RefinedAbstraction.h */,
+				77063A451D5E02520037A415 /* RefinedAbstraction.m */,
+			);
+			path = Brideg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77063A141D5DE6A90037A415 /* BridgePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77063A1C1D5DE6A90037A415 /* Build configuration list for PBXNativeTarget "BridgePattern" */;
+			buildPhases = (
+				77063A111D5DE6A90037A415 /* Sources */,
+				77063A121D5DE6A90037A415 /* Frameworks */,
+				77063A131D5DE6A90037A415 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePattern;
+			productName = BridgePattern;
+			productReference = 77063A151D5DE6A90037A415 /* BridgePattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77063A0D1D5DE6A90037A415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					77063A141D5DE6A90037A415 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 77063A101D5DE6A90037A415 /* Build configuration list for PBXProject "BridgePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77063A0C1D5DE6A90037A415;
+			productRefGroup = 77063A161D5DE6A90037A415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77063A141D5DE6A90037A415 /* BridgePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77063A111D5DE6A90037A415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77063A401D5DFE390037A415 /* ConcreteImplementor2.m in Sources */,
+				77063A261D5DEC6C0037A415 /* ClothesCorp.m in Sources */,
+				77063A3D1D5DFE090037A415 /* ConcreteImplementor1.m in Sources */,
+				77063A351D5DF0490037A415 /* IPod.m in Sources */,
+				77063A431D5E008D0037A415 /* Abstraction.m in Sources */,
+				77063A2C1D5DEE1D0037A415 /* IPodCrop.m in Sources */,
+				77063A371D5DF0BB0037A415 /* Corp.m in Sources */,
+				77063A461D5E02520037A415 /* RefinedAbstraction.m in Sources */,
+				77063A231D5DEBC00037A415 /* HouseCorp.m in Sources */,
+				77063A321D5DEFCE0037A415 /* House.m in Sources */,
+				77063A191D5DE6A90037A415 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77063A1A1D5DE6A90037A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77063A1B1D5DE6A90037A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77063A1D1D5DE6A90037A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77063A1E1D5DE6A90037A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77063A101D5DE6A90037A415 /* Build configuration list for PBXProject "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77063A1A1D5DE6A90037A415 /* Debug */,
+				77063A1B1D5DE6A90037A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77063A1C1D5DE6A90037A415 /* Build configuration list for PBXNativeTarget "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77063A1D1D5DE6A90037A415 /* Debug */,
+				77063A1E1D5DE6A90037A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77063A0D1D5DE6A90037A415 /* Project object */;
+}

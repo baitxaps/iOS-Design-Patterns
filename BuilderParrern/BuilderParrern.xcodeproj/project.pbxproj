@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7794F5991CF9EAFF00C2282B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5981CF9EAFF00C2282B /* main.m */; };
+		7794F5AD1CF9EB5300C2282B /* BenzBuiilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5A01CF9EB5300C2282B /* BenzBuiilder.m */; };
+		7794F5AE1CF9EB5300C2282B /* BenZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5A21CF9EB5300C2282B /* BenZModel.m */; };
+		7794F5AF1CF9EB5300C2282B /* BMWBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5A41CF9EB5300C2282B /* BMWBuilder.m */; };
+		7794F5B01CF9EB5300C2282B /* BMWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5A61CF9EB5300C2282B /* BMWModel.m */; };
+		7794F5B11CF9EB5300C2282B /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5A81CF9EB5300C2282B /* CarBuilder.m */; };
+		7794F5B21CF9EB5300C2282B /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5AA1CF9EB5300C2282B /* CarModel.m */; };
+		7794F5B31CF9EB5300C2282B /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794F5AC1CF9EB5300C2282B /* Director.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7794F5931CF9EAFF00C2282B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7794F5951CF9EAFF00C2282B /* BuilderParrern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BuilderParrern; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794F5981CF9EAFF00C2282B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7794F59F1CF9EB5300C2282B /* BenzBuiilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzBuiilder.h; sourceTree = "<group>"; };
+		7794F5A01CF9EB5300C2282B /* BenzBuiilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzBuiilder.m; sourceTree = "<group>"; };
+		7794F5A11CF9EB5300C2282B /* BenZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenZModel.h; sourceTree = "<group>"; };
+		7794F5A21CF9EB5300C2282B /* BenZModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenZModel.m; sourceTree = "<group>"; };
+		7794F5A31CF9EB5300C2282B /* BMWBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWBuilder.h; sourceTree = "<group>"; };
+		7794F5A41CF9EB5300C2282B /* BMWBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWBuilder.m; sourceTree = "<group>"; };
+		7794F5A51CF9EB5300C2282B /* BMWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWModel.h; sourceTree = "<group>"; };
+		7794F5A61CF9EB5300C2282B /* BMWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWModel.m; sourceTree = "<group>"; };
+		7794F5A71CF9EB5300C2282B /* CarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
+		7794F5A81CF9EB5300C2282B /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
+		7794F5A91CF9EB5300C2282B /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		7794F5AA1CF9EB5300C2282B /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		7794F5AB1CF9EB5300C2282B /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		7794F5AC1CF9EB5300C2282B /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7794F5921CF9EAFF00C2282B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7794F58C1CF9EAFF00C2282B = {
+			isa = PBXGroup;
+			children = (
+				7794F5971CF9EAFF00C2282B /* BuilderParrern */,
+				7794F5961CF9EAFF00C2282B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7794F5961CF9EAFF00C2282B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7794F5951CF9EAFF00C2282B /* BuilderParrern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7794F5971CF9EAFF00C2282B /* BuilderParrern */ = {
+			isa = PBXGroup;
+			children = (
+				7794F5B61CF9EB7E00C2282B /* Benz */,
+				7794F5B51CF9EB7300C2282B /* Director */,
+				7794F5B41CF9EB5E00C2282B /* BMW */,
+				7794F5A71CF9EB5300C2282B /* CarBuilder.h */,
+				7794F5A81CF9EB5300C2282B /* CarBuilder.m */,
+				7794F5A91CF9EB5300C2282B /* CarModel.h */,
+				7794F5AA1CF9EB5300C2282B /* CarModel.m */,
+				7794F5981CF9EAFF00C2282B /* main.m */,
+			);
+			path = BuilderParrern;
+			sourceTree = "<group>";
+		};
+		7794F5B41CF9EB5E00C2282B /* BMW */ = {
+			isa = PBXGroup;
+			children = (
+				7794F5A31CF9EB5300C2282B /* BMWBuilder.h */,
+				7794F5A41CF9EB5300C2282B /* BMWBuilder.m */,
+				7794F5A51CF9EB5300C2282B /* BMWModel.h */,
+				7794F5A61CF9EB5300C2282B /* BMWModel.m */,
+			);
+			name = BMW;
+			sourceTree = "<group>";
+		};
+		7794F5B51CF9EB7300C2282B /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				7794F5AB1CF9EB5300C2282B /* Director.h */,
+				7794F5AC1CF9EB5300C2282B /* Director.m */,
+			);
+			name = Director;
+			sourceTree = "<group>";
+		};
+		7794F5B61CF9EB7E00C2282B /* Benz */ = {
+			isa = PBXGroup;
+			children = (
+				7794F59F1CF9EB5300C2282B /* BenzBuiilder.h */,
+				7794F5A01CF9EB5300C2282B /* BenzBuiilder.m */,
+				7794F5A11CF9EB5300C2282B /* BenZModel.h */,
+				7794F5A21CF9EB5300C2282B /* BenZModel.m */,
+			);
+			name = Benz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7794F5941CF9EAFF00C2282B /* BuilderParrern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794F59C1CF9EAFF00C2282B /* Build configuration list for PBXNativeTarget "BuilderParrern" */;
+			buildPhases = (
+				7794F5911CF9EAFF00C2282B /* Sources */,
+				7794F5921CF9EAFF00C2282B /* Frameworks */,
+				7794F5931CF9EAFF00C2282B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuilderParrern;
+			productName = BuilderParrern;
+			productReference = 7794F5951CF9EAFF00C2282B /* BuilderParrern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7794F58D1CF9EAFF00C2282B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					7794F5941CF9EAFF00C2282B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7794F5901CF9EAFF00C2282B /* Build configuration list for PBXProject "BuilderParrern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7794F58C1CF9EAFF00C2282B;
+			productRefGroup = 7794F5961CF9EAFF00C2282B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7794F5941CF9EAFF00C2282B /* BuilderParrern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7794F5911CF9EAFF00C2282B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794F5AF1CF9EB5300C2282B /* BMWBuilder.m in Sources */,
+				7794F5B31CF9EB5300C2282B /* Director.m in Sources */,
+				7794F5B01CF9EB5300C2282B /* BMWModel.m in Sources */,
+				7794F5B11CF9EB5300C2282B /* CarBuilder.m in Sources */,
+				7794F5AD1CF9EB5300C2282B /* BenzBuiilder.m in Sources */,
+				7794F5991CF9EAFF00C2282B /* main.m in Sources */,
+				7794F5B21CF9EB5300C2282B /* CarModel.m in Sources */,
+				7794F5AE1CF9EB5300C2282B /* BenZModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7794F59A1CF9EAFF00C2282B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7794F59B1CF9EAFF00C2282B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7794F59D1CF9EAFF00C2282B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7794F59E1CF9EAFF00C2282B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7794F5901CF9EAFF00C2282B /* Build configuration list for PBXProject "BuilderParrern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794F59A1CF9EAFF00C2282B /* Debug */,
+				7794F59B1CF9EAFF00C2282B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794F59C1CF9EAFF00C2282B /* Build configuration list for PBXNativeTarget "BuilderParrern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794F59D1CF9EAFF00C2282B /* Debug */,
+				7794F59E1CF9EAFF00C2282B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7794F58D1CF9EAFF00C2282B /* Project object */;
+}

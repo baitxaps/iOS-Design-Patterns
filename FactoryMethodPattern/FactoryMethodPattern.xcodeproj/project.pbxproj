@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7736BC991D4983E100BE646F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BC981D4983E100BE646F /* main.m */; };
+		7736BCA71D4984C800BE646F /* BlackHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCA11D4984C800BE646F /* BlackHuman.m */; };
+		7736BCA81D4984C800BE646F /* HumanBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCA41D4984C800BE646F /* HumanBase.m */; };
+		7736BCA91D4984C800BE646F /* WhiteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCA61D4984C800BE646F /* WhiteHuman.m */; };
+		7736BCAC1D4984E600BE646F /* CreateHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCAB1D4984E600BE646F /* CreateHumanFactory.m */; };
+		7736BCB11D498F0900BE646F /* AbstractHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCB01D498F0900BE646F /* AbstractHumanFactory.m */; };
+		7736BCB41D498FB900BE646F /* BlackHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCB31D498FB900BE646F /* BlackHumanFactory.m */; };
+		7736BCB71D498FD200BE646F /* WhiteHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCB61D498FD200BE646F /* WhiteHumanFactory.m */; };
+		7736BCBC1D49A39400BE646F /* AbstractWhiteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCBB1D49A39400BE646F /* AbstractWhiteHuman.m */; };
+		7736BCC11D49A65000BE646F /* AbstractBlackHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCC01D49A65000BE646F /* AbstractBlackHuman.m */; };
+		7736BCC41D49A72300BE646F /* FemaleWhiteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCC31D49A72300BE646F /* FemaleWhiteHuman.m */; };
+		7736BCC71D49A80300BE646F /* MaleWhiteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCC61D49A80300BE646F /* MaleWhiteHuman.m */; };
+		7736BCCA1D49A83A00BE646F /* HumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCC91D49A83A00BE646F /* HumanFactory.m */; };
+		7736BCCD1D49A92300BE646F /* FemaleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCCC1D49A92300BE646F /* FemaleFactory.m */; };
+		7736BCD01D49AB0400BE646F /* MaleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCCF1D49AB0400BE646F /* MaleFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7736BC931D4983E100BE646F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7736BC951D4983E100BE646F /* FactoryMethodPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethodPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		7736BC981D4983E100BE646F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7736BC9F1D49844F00BE646F /* FactoryMethodPattern001..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FactoryMethodPattern001..png; sourceTree = "<group>"; };
+		7736BCA01D4984C800BE646F /* BlackHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHuman.h; sourceTree = "<group>"; };
+		7736BCA11D4984C800BE646F /* BlackHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHuman.m; sourceTree = "<group>"; };
+		7736BCA21D4984C800BE646F /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		7736BCA31D4984C800BE646F /* HumanBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanBase.h; sourceTree = "<group>"; };
+		7736BCA41D4984C800BE646F /* HumanBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanBase.m; sourceTree = "<group>"; };
+		7736BCA51D4984C800BE646F /* WhiteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteHuman.h; sourceTree = "<group>"; };
+		7736BCA61D4984C800BE646F /* WhiteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteHuman.m; sourceTree = "<group>"; };
+		7736BCAA1D4984E600BE646F /* CreateHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateHumanFactory.h; sourceTree = "<group>"; };
+		7736BCAB1D4984E600BE646F /* CreateHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateHumanFactory.m; sourceTree = "<group>"; };
+		7736BCAD1D498D4C00BE646F /* FactoryMethodPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FactoryMethodPattern002.png; sourceTree = "<group>"; };
+		7736BCAF1D498F0900BE646F /* AbstractHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractHumanFactory.h; sourceTree = "<group>"; };
+		7736BCB01D498F0900BE646F /* AbstractHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractHumanFactory.m; sourceTree = "<group>"; };
+		7736BCB21D498FB900BE646F /* BlackHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHumanFactory.h; sourceTree = "<group>"; };
+		7736BCB31D498FB900BE646F /* BlackHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHumanFactory.m; sourceTree = "<group>"; };
+		7736BCB51D498FD200BE646F /* WhiteHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteHumanFactory.h; sourceTree = "<group>"; };
+		7736BCB61D498FD200BE646F /* WhiteHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteHumanFactory.m; sourceTree = "<group>"; };
+		7736BCB81D499C8A00BE646F /* AbstractHumanFactory001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbstractHumanFactory001.png; sourceTree = "<group>"; };
+		7736BCBA1D49A39400BE646F /* AbstractWhiteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractWhiteHuman.h; sourceTree = "<group>"; };
+		7736BCBB1D49A39400BE646F /* AbstractWhiteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractWhiteHuman.m; sourceTree = "<group>"; };
+		7736BCBE1D49A41000BE646F /* FactoryMehtodHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMehtodHeader.h; sourceTree = "<group>"; };
+		7736BCBF1D49A65000BE646F /* AbstractBlackHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBlackHuman.h; sourceTree = "<group>"; };
+		7736BCC01D49A65000BE646F /* AbstractBlackHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBlackHuman.m; sourceTree = "<group>"; };
+		7736BCC21D49A72300BE646F /* FemaleWhiteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FemaleWhiteHuman.h; sourceTree = "<group>"; };
+		7736BCC31D49A72300BE646F /* FemaleWhiteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FemaleWhiteHuman.m; sourceTree = "<group>"; };
+		7736BCC51D49A80300BE646F /* MaleWhiteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaleWhiteHuman.h; sourceTree = "<group>"; };
+		7736BCC61D49A80300BE646F /* MaleWhiteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaleWhiteHuman.m; sourceTree = "<group>"; };
+		7736BCC81D49A83A00BE646F /* HumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanFactory.h; sourceTree = "<group>"; };
+		7736BCC91D49A83A00BE646F /* HumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanFactory.m; sourceTree = "<group>"; };
+		7736BCCB1D49A92300BE646F /* FemaleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FemaleFactory.h; sourceTree = "<group>"; };
+		7736BCCC1D49A92300BE646F /* FemaleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FemaleFactory.m; sourceTree = "<group>"; };
+		7736BCCE1D49AB0400BE646F /* MaleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaleFactory.h; sourceTree = "<group>"; };
+		7736BCCF1D49AB0400BE646F /* MaleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaleFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7736BC921D4983E100BE646F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7736BC8C1D4983E100BE646F = {
+			isa = PBXGroup;
+			children = (
+				7736BCBD1D49A3F700BE646F /* Others */,
+				7736BCB91D49A34800BE646F /* AbstractFactory */,
+				7736BCAE1D498ED500BE646F /* AbstractHumanFactory */,
+				7736BC971D4983E100BE646F /* FactoryMethodPattern */,
+				7736BC961D4983E100BE646F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7736BC961D4983E100BE646F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7736BC951D4983E100BE646F /* FactoryMethodPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7736BC971D4983E100BE646F /* FactoryMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				7736BCB81D499C8A00BE646F /* AbstractHumanFactory001.png */,
+				7736BCAD1D498D4C00BE646F /* FactoryMethodPattern002.png */,
+				7736BC9F1D49844F00BE646F /* FactoryMethodPattern001..png */,
+				7736BCA21D4984C800BE646F /* Human.h */,
+				7736BCA31D4984C800BE646F /* HumanBase.h */,
+				7736BCA41D4984C800BE646F /* HumanBase.m */,
+				7736BCA51D4984C800BE646F /* WhiteHuman.h */,
+				7736BCA61D4984C800BE646F /* WhiteHuman.m */,
+				7736BCA01D4984C800BE646F /* BlackHuman.h */,
+				7736BCA11D4984C800BE646F /* BlackHuman.m */,
+				7736BCAA1D4984E600BE646F /* CreateHumanFactory.h */,
+				7736BCAB1D4984E600BE646F /* CreateHumanFactory.m */,
+				7736BC981D4983E100BE646F /* main.m */,
+			);
+			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
+		7736BCAE1D498ED500BE646F /* AbstractHumanFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7736BCAF1D498F0900BE646F /* AbstractHumanFactory.h */,
+				7736BCB01D498F0900BE646F /* AbstractHumanFactory.m */,
+				7736BCB21D498FB900BE646F /* BlackHumanFactory.h */,
+				7736BCB31D498FB900BE646F /* BlackHumanFactory.m */,
+				7736BCB51D498FD200BE646F /* WhiteHumanFactory.h */,
+				7736BCB61D498FD200BE646F /* WhiteHumanFactory.m */,
+			);
+			path = AbstractHumanFactory;
+			sourceTree = "<group>";
+		};
+		7736BCB91D49A34800BE646F /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7736BCBA1D49A39400BE646F /* AbstractWhiteHuman.h */,
+				7736BCBB1D49A39400BE646F /* AbstractWhiteHuman.m */,
+				7736BCBF1D49A65000BE646F /* AbstractBlackHuman.h */,
+				7736BCC01D49A65000BE646F /* AbstractBlackHuman.m */,
+				7736BCC51D49A80300BE646F /* MaleWhiteHuman.h */,
+				7736BCC61D49A80300BE646F /* MaleWhiteHuman.m */,
+				7736BCC21D49A72300BE646F /* FemaleWhiteHuman.h */,
+				7736BCC31D49A72300BE646F /* FemaleWhiteHuman.m */,
+				7736BCC81D49A83A00BE646F /* HumanFactory.h */,
+				7736BCC91D49A83A00BE646F /* HumanFactory.m */,
+				7736BCCE1D49AB0400BE646F /* MaleFactory.h */,
+				7736BCCF1D49AB0400BE646F /* MaleFactory.m */,
+				7736BCCB1D49A92300BE646F /* FemaleFactory.h */,
+				7736BCCC1D49A92300BE646F /* FemaleFactory.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		7736BCBD1D49A3F700BE646F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7736BCBE1D49A41000BE646F /* FactoryMehtodHeader.h */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7736BC941D4983E100BE646F /* FactoryMethodPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7736BC9C1D4983E100BE646F /* Build configuration list for PBXNativeTarget "FactoryMethodPattern" */;
+			buildPhases = (
+				7736BC911D4983E100BE646F /* Sources */,
+				7736BC921D4983E100BE646F /* Frameworks */,
+				7736BC931D4983E100BE646F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryMethodPattern;
+			productName = FactoryMethodPattern;
+			productReference = 7736BC951D4983E100BE646F /* FactoryMethodPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7736BC8D1D4983E100BE646F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					7736BC941D4983E100BE646F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7736BC901D4983E100BE646F /* Build configuration list for PBXProject "FactoryMethodPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7736BC8C1D4983E100BE646F;
+			productRefGroup = 7736BC961D4983E100BE646F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7736BC941D4983E100BE646F /* FactoryMethodPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7736BC911D4983E100BE646F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7736BCB71D498FD200BE646F /* WhiteHumanFactory.m in Sources */,
+				7736BC991D4983E100BE646F /* main.m in Sources */,
+				7736BCCD1D49A92300BE646F /* FemaleFactory.m in Sources */,
+				7736BCA91D4984C800BE646F /* WhiteHuman.m in Sources */,
+				7736BCCA1D49A83A00BE646F /* HumanFactory.m in Sources */,
+				7736BCC41D49A72300BE646F /* FemaleWhiteHuman.m in Sources */,
+				7736BCC71D49A80300BE646F /* MaleWhiteHuman.m in Sources */,
+				7736BCD01D49AB0400BE646F /* MaleFactory.m in Sources */,
+				7736BCA81D4984C800BE646F /* HumanBase.m in Sources */,
+				7736BCBC1D49A39400BE646F /* AbstractWhiteHuman.m in Sources */,
+				7736BCC11D49A65000BE646F /* AbstractBlackHuman.m in Sources */,
+				7736BCAC1D4984E600BE646F /* CreateHumanFactory.m in Sources */,
+				7736BCB41D498FB900BE646F /* BlackHumanFactory.m in Sources */,
+				7736BCB11D498F0900BE646F /* AbstractHumanFactory.m in Sources */,
+				7736BCA71D4984C800BE646F /* BlackHuman.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7736BC9A1D4983E100BE646F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7736BC9B1D4983E100BE646F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7736BC9D1D4983E100BE646F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7736BC9E1D4983E100BE646F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7736BC901D4983E100BE646F /* Build configuration list for PBXProject "FactoryMethodPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7736BC9A1D4983E100BE646F /* Debug */,
+				7736BC9B1D4983E100BE646F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7736BC9C1D4983E100BE646F /* Build configuration list for PBXNativeTarget "FactoryMethodPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7736BC9D1D4983E100BE646F /* Debug */,
+				7736BC9E1D4983E100BE646F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7736BC8D1D4983E100BE646F /* Project object */;
+}

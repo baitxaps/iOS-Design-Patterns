@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774FCD4F1D55D23900ECE1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774FCD4E1D55D23900ECE1CD /* main.m */; };
+		774FCD571D55D7F500ECE1CD /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = 774FCD561D55D7F500ECE1CD /* Boy.m */; };
+		774FCD5A1D55E08E00ECE1CD /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = 774FCD591D55E08E00ECE1CD /* Memento.m */; };
+		774FCD5D1D56222C00ECE1CD /* Caretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 774FCD5C1D56222C00ECE1CD /* Caretaker.m */; };
+		774FCD621D5629C300ECE1CD /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = 774FCD611D5629C300ECE1CD /* Originator.m */; };
+		778CE9A41D58A604001FAF2C /* Cloneable.m in Sources */ = {isa = PBXBuildFile; fileRef = 778CE9A31D58A604001FAF2C /* Cloneable.m */; };
+		778CE9A81D58D514001FAF2C /* BeanUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 778CE9A71D58D514001FAF2C /* BeanUtils.m */; };
+		778CE9AD1D58F17C001FAF2C /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 778CE9AC1D58F17C001FAF2C /* NSArray+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		774FCD491D55D23900ECE1CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		774FCD4B1D55D23900ECE1CD /* MementoPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MementoPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		774FCD4E1D55D23900ECE1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		774FCD551D55D7F500ECE1CD /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		774FCD561D55D7F500ECE1CD /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
+		774FCD581D55E08E00ECE1CD /* Memento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		774FCD591D55E08E00ECE1CD /* Memento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		774FCD5B1D56222C00ECE1CD /* Caretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caretaker.h; sourceTree = "<group>"; };
+		774FCD5C1D56222C00ECE1CD /* Caretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caretaker.m; sourceTree = "<group>"; };
+		774FCD5E1D56291D00ECE1CD /* MementoPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MementoPattern001.png; sourceTree = "<group>"; };
+		774FCD601D5629C300ECE1CD /* Originator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
+		774FCD611D5629C300ECE1CD /* Originator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
+		778CE9A21D58A604001FAF2C /* Cloneable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloneable.h; sourceTree = "<group>"; };
+		778CE9A31D58A604001FAF2C /* Cloneable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloneable.m; sourceTree = "<group>"; };
+		778CE9A51D58D466001FAF2C /* mementoPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mementoPattern001.png; sourceTree = "<group>"; };
+		778CE9A61D58D514001FAF2C /* BeanUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanUtils.h; sourceTree = "<group>"; };
+		778CE9A71D58D514001FAF2C /* BeanUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanUtils.m; sourceTree = "<group>"; };
+		778CE9AB1D58F17C001FAF2C /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		778CE9AC1D58F17C001FAF2C /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774FCD481D55D23900ECE1CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774FCD421D55D23900ECE1CD = {
+			isa = PBXGroup;
+			children = (
+				778CE9A91D58F137001FAF2C /* Others */,
+				774FCD5F1D5629A600ECE1CD /* Memento */,
+				774FCD4D1D55D23900ECE1CD /* MementoPattern */,
+				774FCD4C1D55D23900ECE1CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774FCD4C1D55D23900ECE1CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774FCD4B1D55D23900ECE1CD /* MementoPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774FCD4D1D55D23900ECE1CD /* MementoPattern */ = {
+			isa = PBXGroup;
+			children = (
+				774FCD5E1D56291D00ECE1CD /* MementoPattern001.png */,
+				774FCD4E1D55D23900ECE1CD /* main.m */,
+				774FCD551D55D7F500ECE1CD /* Boy.h */,
+				774FCD561D55D7F500ECE1CD /* Boy.m */,
+				774FCD581D55E08E00ECE1CD /* Memento.h */,
+				774FCD591D55E08E00ECE1CD /* Memento.m */,
+				774FCD5B1D56222C00ECE1CD /* Caretaker.h */,
+				774FCD5C1D56222C00ECE1CD /* Caretaker.m */,
+			);
+			path = MementoPattern;
+			sourceTree = "<group>";
+		};
+		774FCD5F1D5629A600ECE1CD /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				778CE9A51D58D466001FAF2C /* mementoPattern001.png */,
+				774FCD601D5629C300ECE1CD /* Originator.h */,
+				774FCD611D5629C300ECE1CD /* Originator.m */,
+				778CE9A21D58A604001FAF2C /* Cloneable.h */,
+				778CE9A31D58A604001FAF2C /* Cloneable.m */,
+				778CE9A61D58D514001FAF2C /* BeanUtils.h */,
+				778CE9A71D58D514001FAF2C /* BeanUtils.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		778CE9A91D58F137001FAF2C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				778CE9AB1D58F17C001FAF2C /* NSArray+Extension.h */,
+				778CE9AC1D58F17C001FAF2C /* NSArray+Extension.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		774FCD4A1D55D23900ECE1CD /* MementoPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774FCD521D55D23900ECE1CD /* Build configuration list for PBXNativeTarget "MementoPattern" */;
+			buildPhases = (
+				774FCD471D55D23900ECE1CD /* Sources */,
+				774FCD481D55D23900ECE1CD /* Frameworks */,
+				774FCD491D55D23900ECE1CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MementoPattern;
+			productName = MementoPattern;
+			productReference = 774FCD4B1D55D23900ECE1CD /* MementoPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774FCD431D55D23900ECE1CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "hairong chen";
+				TargetAttributes = {
+					774FCD4A1D55D23900ECE1CD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 774FCD461D55D23900ECE1CD /* Build configuration list for PBXProject "MementoPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 774FCD421D55D23900ECE1CD;
+			productRefGroup = 774FCD4C1D55D23900ECE1CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774FCD4A1D55D23900ECE1CD /* MementoPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774FCD471D55D23900ECE1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774FCD621D5629C300ECE1CD /* Originator.m in Sources */,
+				774FCD5D1D56222C00ECE1CD /* Caretaker.m in Sources */,
+				774FCD571D55D7F500ECE1CD /* Boy.m in Sources */,
+				774FCD5A1D55E08E00ECE1CD /* Memento.m in Sources */,
+				774FCD4F1D55D23900ECE1CD /* main.m in Sources */,
+				778CE9A81D58D514001FAF2C /* BeanUtils.m in Sources */,
+				778CE9AD1D58F17C001FAF2C /* NSArray+Extension.m in Sources */,
+				778CE9A41D58A604001FAF2C /* Cloneable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		774FCD501D55D23900ECE1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		774FCD511D55D23900ECE1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		774FCD531D55D23900ECE1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		774FCD541D55D23900ECE1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774FCD461D55D23900ECE1CD /* Build configuration list for PBXProject "MementoPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774FCD501D55D23900ECE1CD /* Debug */,
+				774FCD511D55D23900ECE1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774FCD521D55D23900ECE1CD /* Build configuration list for PBXNativeTarget "MementoPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774FCD531D55D23900ECE1CD /* Debug */,
+				774FCD541D55D23900ECE1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774FCD431D55D23900ECE1CD /* Project object */;
+}
